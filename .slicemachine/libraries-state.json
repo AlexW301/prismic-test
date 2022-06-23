@@ -1,0 +1,154 @@
+{
+  "slices": {
+    "components": {
+      "link_cards": {
+        "library": "slices",
+        "id": "link_cards",
+        "name": "LinkCards",
+        "description": "LinkCards",
+        "model": {
+          "id": "link_cards",
+          "type": "SharedSlice",
+          "name": "LinkCards",
+          "description": "LinkCards",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "LinkCards",
+              "primary": {},
+              "items": {
+                "name": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Name",
+                    "placeholder": ""
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "link_cards",
+            "items": [
+              {
+                "name": "syndicate open-source web services",
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Excepteur anim qui quis et eiusmod ullamco in occaecat ex eiusmod. Cillum ut elit consectetur fugiat duis cupidatat ex adipisicing aliquip ipsum nulla incididunt. Magna non ea nulla.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "name": "benchmark cross-platform action-items",
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Incididunt pariatur nisi incididunt dolor quis adipisicing ea ullamco eiusmod. Aliquip excepteur eu dolore sint dolore aute eiusmod. Anim aute tempor ipsum ut esse elit labore consectetur laboris proident dolore deserunt ad sit sit.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "text": {
+        "library": "slices",
+        "id": "text",
+        "name": "Text",
+        "description": "Text",
+        "model": {
+          "id": "text",
+          "type": "SharedSlice",
+          "name": "Text",
+          "description": "Text",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Text",
+              "primary": {
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "text",
+            "items": [],
+            "primary": {
+              "text": [
+                {
+                  "type": "paragraph",
+                  "text": "Eu cupidatat magna anim irure est pariatur occaecat dolor cillum amet voluptate quis ut laboris enim. Ad veniam duis amet dolor ad elit do duis laborum irure cupidatat dolore id. Tempor et occaecat nisi voluptate anim.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

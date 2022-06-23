@@ -1,0 +1,30 @@
+{
+  "id": "6e8ca5a0-6fe3-4cd2-bdb3-69817f99becf",
+  "uid": "recusandae-soluta-ad",
+  "type": "page",
+  "data": {
+    "greeting": [
+      {
+        "type": "heading1",
+        "text": "Unleash out-of-the-box e-services",
+        "spans": []
+      }
+    ],
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "Eiusmod magna non deserunt mollit laboris nulla excepteur. Et do tempor ad incididunt commodo aliqua id in irure nulla nostrud esse. Excepteur anim ad velit fugiat id.",
+        "spans": []
+      }
+    ],
+    "image": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
+    }
+  }
+}
